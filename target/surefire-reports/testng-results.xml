@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="494" started-at="2018-03-16T04:42:38Z" finished-at="2018-03-16T04:42:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@1a407d53]" name="feature" class="TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login and Update Profile Test" duration-ms="494" started-at="2018-03-16T04:42:38Z" finished-at="2018-03-16T04:42:39Z">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@1a407d53]" name="setUpClass" is-config="true" duration-ms="226" started-at="2018-03-16T15:42:38Z" finished-at="2018-03-16T15:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner@1a407d53]" name="feature" duration-ms="155" started-at="2018-03-16T15:42:39Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-03-16T15:42:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Update Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@1a407d53]" name="tearDownClass" is-config="true" duration-ms="17" started-at="2018-03-16T15:42:39Z" finished-at="2018-03-16T15:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
